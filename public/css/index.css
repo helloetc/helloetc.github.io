@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(209, 204, 204,0.5);
+    /* background-color: black; */
+}
+.menu_row a{
+    text-decoration: none;
+    color: #000;
+    text-align: right;
+}
+.col2{
+    float: left;
+    width: 16.6%;
+    padding: auto auto;
+}
+.left{
+    /* border: solid; */
+    height: 80px;
+    line-height: 80px;
+    width: 46%;
+    font-size: 25px;
+    font-style: italic;
+    float: left;
+    background-color: #fff;
+
+}
+.imgs1 img{
+    transition: all 0.5s;
+}
+
+.imgs1:hover img{
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+.imgs1{
+    width: 20%;
+    float: left;
+    margin: 20px 0;
+    overflow: hidden;
+    position: relative;
+}
+.disworld{
+    position: absolute;
+    /* z-index: 9; */
+    top:60% ;
+    left: 50%;
+    margin-left: -70px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    /* display: none; */
+    opacity: 0;
+    transition: all 1s linear;
+
+}
+.imgs1:hover .disworld{
+    transition: all 1s linear;
+    top: 50%;
+    opacity: 1;
+}
+.menu_span{
+    display: inline-block;
+    margin-left:10%;
+}
+.rigth{
+    /* border: solid; */
+    height: 80px;
+    line-height: 80px;
+    width: 54%;
+    float: left;
+    background-color: #fff;
+
+}
+.menu_row{margin-right:5%}
+
+#imgs::after{
+    content: "";
+    display: inline-block;
+    clear:both;
+}
+
+#main{
+    margin:0 0 ;
+    background-color:#f9f9f9 ;
+}
+#main_left{
+    width: 67%;
+    float: left;
+
+}
+.imgAndWorld{
+    background-color:#fff ;
+    /* border: solid; */
+    padding: 0 20px;
+
+    padding-top: 15px;
+}
+.imgAndWorld::after{
+    content: "";
+    display: inline-block;
+    clear:both;
+}
+.tu{
+       width: 30%;
+       border-radius: 5px;
+       overflow: hidden;
+       float: left;
+       margin: 0 20px 20px 0;
+}
+.tu img{
+    width: 100%;
+    transition: all 0.8s;
+}
+.tu:hover img{
+    transform: scale(1.1);
+    transition: all 0.8s;
+}
+.foot{
+    width: 100%; 
+    clear: both;
+}
+.foot::after{
+    border: solid 10px red;
+}
+.foot a{
+   float: right;
+   margin-right: 20px;
+}
+.foot span{
+    display: inline-block;
+    margin: 0 10px;
+}
+.thr{
+    height: 15px;
+    /* margin-top: -15px; */
+}
+#main_rigth{
+    width: 32%;
+
+}
+.aboutMe{
+    width: 100%;
+    height: 392px;
+    background-image: url(../images/banner.png) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.avatar {
+    width: 100%;
+}
+.avatar img{
+    border-radius: 50%;
+   margin-top: 90px;
+   margin-left: auto;
+}
+.abname{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px;
+}
+.abwork{
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    color: #3f3f3f;
+}
+.abworld{
+   padding: 5px 30px;
+}
+.resever{
+    margin-top: 20px ;
+    float: right;
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.resever form{
+    display: block;
+    text-align: center;
+   padding-top: 15px;
+}
+.resever form button{
+    width:50px ;
+    margin-left: -5px;
+}
+.cloud{
+   
+    margin-top:90px ;
+    padding-bottom: 10px;
+    background-color: #fff;
+}
+.clounda a{
+    display: inline-block;
+    border-radius: 8px;
+    border: solid 1px;
+    padding: 8px;
+    margin-top: 5px ;
+    margin-left: 10px;
+    color: #fff;
+    /* font-size: 2em; */
+}
+.neiRong{
+    margin: 10px ;
+}
+
+li{
+    list-style: none;
+    background-color: #fff;
+}
+
+li i{
+    display:block;
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    float: left;
+}
+li p{
+    margin-top: 10px;
+}
+li i img{
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+}
+li::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.paihang{
+    background-color: #fff;
+    margin-top: 20px;
+}
+.tuijian{
+    margin-top: 20px;
+    background-color: #fff;
+}
+.lianjie{
+    margin-top: 10px;
+    background-color: #fff;
+   
+}
+.lianjie h3{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.lianjie a{
+    display: inline-block;
+    color: black;
+    margin: 5px 15px;
+}
+.weizin{
+    margin-top: 10px;
+    background-color: #fff;
+}
+.weizin h3{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.line1{
+    border: solid rgb(235, 206, 206);
+    width: 0%;
+    transition: all 1s;
+
+}
+ h3:hover + .line1{
+        width: 100%;
+        border: solid red;
+        transition: all 1s;
+       
+}
+footer {
+    width: 100%;
+    background: #333;
+    color: #a5a4a4;
+    text-align: center;
+    padding: 20px 0;
+    clear: both;
+    font-size: 14;
+    border-bottom:so ;
+}
+footer a{
+    color: #a5a4a4;
+}

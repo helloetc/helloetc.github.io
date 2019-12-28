@@ -1,0 +1,8 @@
+@media screen and ( max-width:770px){
+    #main_left{
+        width: 100%;
+    }
+    #main_rigth{
+        display: none;
+    }
+}
